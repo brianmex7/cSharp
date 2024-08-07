@@ -8,8 +8,9 @@ namespace Comments
         /// They start with triple-slashes and have a special syntax
         static void Main(string[] args)
         {
-
+            //Single Line Comment
             Console.WriteLine("Hello World!");
+            /* Multiple Line Comment */
 
         }
     }
