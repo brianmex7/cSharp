@@ -9,6 +9,10 @@ namespace Conditionals
             int theVal = 50;
 
             // TODO: if-else 
+            if (theVal == 50)
+            {
+                Console.WriteLine(theVal);
+            }
 
 
             // -----------------------
@@ -25,6 +29,7 @@ namespace Conditionals
             */
 
             // TODO: can be replaced by a ternary operator ?:
+            Console.WriteLine(theVal < 50 ? "the Val is small" : "the Val is large");
 
         }
     }
