@@ -1,0 +1,15 @@
+C:\Users\14352\cSharp\DotNet7\Start\Strings\Formatting\obj\Debug\net8.0\Formatting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\14352\cSharp\DotNet7\Start\Strings\Formatting\obj\Debug\net8.0\Formatting.AssemblyInfoInputs.cache
+C:\Users\14352\cSharp\DotNet7\Start\Strings\Formatting\obj\Debug\net8.0\Formatting.AssemblyInfo.cs
+C:\Users\14352\cSharp\DotNet7\Start\Strings\Formatting\obj\Debug\net8.0\Formatting.csproj.CoreCompileInputs.cache
+C:\Users\14352\cSharp\DotNet7\Start\Strings\Formatting\obj\Debug\net8.0\Formatting.sourcelink.json
+C:\Users\14352\cSharp\DotNet7\Start\Strings\Formatting\bin\Debug\net8.0\Formatting.exe
+C:\Users\14352\cSharp\DotNet7\Start\Strings\Formatting\bin\Debug\net8.0\Formatting.deps.json
+C:\Users\14352\cSharp\DotNet7\Start\Strings\Formatting\bin\Debug\net8.0\Formatting.runtimeconfig.json
+C:\Users\14352\cSharp\DotNet7\Start\Strings\Formatting\bin\Debug\net8.0\Formatting.dll
+C:\Users\14352\cSharp\DotNet7\Start\Strings\Formatting\bin\Debug\net8.0\Formatting.pdb
+C:\Users\14352\cSharp\DotNet7\Start\Strings\Formatting\obj\Debug\net8.0\Formatting.dll
+C:\Users\14352\cSharp\DotNet7\Start\Strings\Formatting\obj\Debug\net8.0\refint\Formatting.dll
+C:\Users\14352\cSharp\DotNet7\Start\Strings\Formatting\obj\Debug\net8.0\Formatting.pdb
+C:\Users\14352\cSharp\DotNet7\Start\Strings\Formatting\obj\Debug\net8.0\Formatting.genruntimeconfig.cache
+C:\Users\14352\cSharp\DotNet7\Start\Strings\Formatting\obj\Debug\net8.0\ref\Formatting.dll
