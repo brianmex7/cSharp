@@ -15,16 +15,18 @@ namespace Modifiers
 
         // TODO: "private" is the default and can only be accessed by code 
         // within the class itself
-        int _pagecount;
+        int _pageCount;
 
-        public Book(string name, string author, int pages) {
+        public Book(string name, string author, int pages)
+        {
             _name = name;
             _author = author;
-            _pagecount = pages;
+            _pageCount = pages;
         }
 
-        public string GetDescription() {
-            return $"{_name} by {_author}, {_pagecount} pages";
+        public string GetDescription()
+        {
+            return $"{_name} by {_author}, {_pageCount} pages";
         }
 
         // TODO: Member variables can be accessed via methods

@@ -1,0 +1,15 @@
+C:\Users\14352\cSharp\DotNet7\Start\Classes\Properties\obj\Debug\net8.0\Properties.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\14352\cSharp\DotNet7\Start\Classes\Properties\obj\Debug\net8.0\Properties.AssemblyInfoInputs.cache
+C:\Users\14352\cSharp\DotNet7\Start\Classes\Properties\obj\Debug\net8.0\Properties.AssemblyInfo.cs
+C:\Users\14352\cSharp\DotNet7\Start\Classes\Properties\obj\Debug\net8.0\Properties.csproj.CoreCompileInputs.cache
+C:\Users\14352\cSharp\DotNet7\Start\Classes\Properties\obj\Debug\net8.0\Properties.sourcelink.json
+C:\Users\14352\cSharp\DotNet7\Start\Classes\Properties\bin\Debug\net8.0\Properties.exe
+C:\Users\14352\cSharp\DotNet7\Start\Classes\Properties\bin\Debug\net8.0\Properties.deps.json
+C:\Users\14352\cSharp\DotNet7\Start\Classes\Properties\bin\Debug\net8.0\Properties.runtimeconfig.json
+C:\Users\14352\cSharp\DotNet7\Start\Classes\Properties\bin\Debug\net8.0\Properties.dll
+C:\Users\14352\cSharp\DotNet7\Start\Classes\Properties\bin\Debug\net8.0\Properties.pdb
+C:\Users\14352\cSharp\DotNet7\Start\Classes\Properties\obj\Debug\net8.0\Properties.dll
+C:\Users\14352\cSharp\DotNet7\Start\Classes\Properties\obj\Debug\net8.0\refint\Properties.dll
+C:\Users\14352\cSharp\DotNet7\Start\Classes\Properties\obj\Debug\net8.0\Properties.pdb
+C:\Users\14352\cSharp\DotNet7\Start\Classes\Properties\obj\Debug\net8.0\Properties.genruntimeconfig.cache
+C:\Users\14352\cSharp\DotNet7\Start\Classes\Properties\obj\Debug\net8.0\ref\Properties.dll
