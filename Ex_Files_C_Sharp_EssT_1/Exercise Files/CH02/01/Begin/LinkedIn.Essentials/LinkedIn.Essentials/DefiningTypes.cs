@@ -1,26 +1,28 @@
 ﻿namespace LinkedIn.Essentials;
 
-public interface IPerson {
-    public string FirstName { get; set; } 
-    public string LastName { get; set; } 
-    public int Id { get; set; } 
-    public Age Age { get; set; } 
+public interface IPerson
+{
+    public string FirstName { get; set; }
+    public string LastName { get; set; }
+    public int Id { get; set; }
+    public Age Age { get; set; }
 }
 
 //classes - reference types
-public class Employee : IPerson { 
-    public string LastName { get; set; } 
-    public int Id { get; set; } 
-    public Age Age { get; set; } 
+public class Employee : IPerson
+{
+    public string LastName { get; set; }
+    public int Id { get; set; }
+    public Age Age { get; set; }
     public string FirstName { get; set; }
 
     //employee properties
     public int EmployeeId { get; set; }
     public DateOnly StartDate { get; set; }
     public TimeOnly ShiftStartTime { get; set; }
-}  
+}
 
-public class Manager : Employee, IPerson 
+public class Manager : Employee, IPerson
 {
     public int NumberOfDirectReports { get; set; }
 }
@@ -31,16 +33,17 @@ public struct Age
     public DateTime BirthDate { get; set; }
     public int YearsOld { get; set; }
 }
-    
-public struct VendorContact : IPerson { 
-    public string LastName { get; set; }        
-    public int Id { get; set; }        
-    public Age Age { get; set; }        
+
+public struct VendorContact : IPerson
+{
+    public string LastName { get; set; }
+    public int Id { get; set; }
+    public Age Age { get; set; }
     public string FirstName { get; set; }
 }
 
 //records (C# 9)
-public record Customer : IPerson
+public record class Customer : IPerson
 {
     public string LastName { get; set; }
     public int Id { get; set; }
