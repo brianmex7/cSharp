@@ -17,14 +17,14 @@ bool active = sw.IsActive();
 Console.WriteLine();
 
 
-//Employee mgr = new Manager
-//{
-//    FirstName = "manager",
-//    LastName = "one",
-//    NumberOfDirectReports = 7
-//};
+Employee mgr = new Manager
+{
+    FirstName = "manager",
+    LastName = "one",
+    NumberOfDirectReports = 7
+};
 
-//Console.WriteLine("=============Manager=============");
-//bool mgrPayrollProcessed = mgr.ProcessPayroll();
-//mgr.Terminate(DateTime.Now);
-//bool mgrActive = mgr.IsActive();
+Console.WriteLine("=============Manager=============");
+bool mgrPayrollProcessed = mgr.ProcessPayroll();
+mgr.Terminate(DateTime.Now);
+bool mgrActive = mgr.IsActive();
