@@ -7,3 +7,11 @@ Employee e = new Employee("Matt", "Milner", 75)
 };
 
 Console.WriteLine($"From {e.FirstName}  id {e.Id}, hello world");
+
+PremiereCustomer pCustomer = new PremiereCustomer { CustomerLevel = 2 };
+pCustomer.FirstName = "New Customer";
+
+Console.WriteLine($"{pCustomer.FirstName} at {pCustomer.CustomerLevel} level");
+
+Manager m = new Manager("manager", "boss");
+m.SetReports(7);
