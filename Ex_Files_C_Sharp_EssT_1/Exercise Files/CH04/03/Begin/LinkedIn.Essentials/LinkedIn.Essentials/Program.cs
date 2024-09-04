@@ -4,9 +4,16 @@ using LinkedIn.Essentials;
 var x = 10.0;
 var y = "some string";
 
-var e = new ShiftWorker();
-e.FirstName = "Hello";
-((ShiftWorker)e).ShiftStartTime = new TimeOnly(8, 30);
+var e = new
+{
+    FirstName = "Brian",
+    LastName = "Bustos"
+        Kids = new string[] { "son1", "son2" }
+};
+
+string kid1 = e.Kids[1];
+
+
 
 
 Console.WriteLine(e.FirstName);
