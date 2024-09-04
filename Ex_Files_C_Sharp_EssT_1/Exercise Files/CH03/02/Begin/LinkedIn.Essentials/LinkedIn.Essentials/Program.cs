@@ -4,3 +4,7 @@
 
 string db = LinkedIn.Essentials.Constants.CONFIG_DB_NAME;
 Console.WriteLine(db);
+
+Employee e = new Manager();
+e.FirstName = "Brian";
+Console.WriteLine(e.FirstName);

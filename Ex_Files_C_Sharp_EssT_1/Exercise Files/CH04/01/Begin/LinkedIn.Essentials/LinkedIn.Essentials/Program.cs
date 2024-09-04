@@ -1,13 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using LE= LinkedIn.Essentials;
-using LET = LinkedIn.Essentials.Types;
-//using System;
-using Newtonsoft.Json;
+using LinkedIn.Essentials;
 
-LE.Employee e = new LE.Manager();
+
+ShiftWorker e = new ShiftWorker();
 e.FirstName = "Hello";
-JsonSerializer s = new JsonSerializer();
-s.Serialize(Console.Out, e);
+e.ShiftStartTime = new TimeOnly(8, 30);
 
 //e.IsActive();
 
