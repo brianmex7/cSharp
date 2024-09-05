@@ -6,19 +6,24 @@ int definiteInt;
 int? age = null;
 Nullable<int> age2 = null;
 
-age = 17;
+age = 5;
+age ??= 12;
+definiteInt = age ?? 17;
 
-if(input != null)
-{
-    Console.WriteLine("String is :{0}", input);
-}
+definiteInt = age != null ? age.Value : 17;
+Console.WriteLine($"Age is: {definiteInt}");
 
-if(age != null)
-{
-    Console.WriteLine($"Age is: {age}");
-}
+// if(input != null)
+// {
+//     Console.WriteLine("String is :{0}", input);
+// }
 
-if(age.HasValue)
-{
-    Console.WriteLine($"Age is: {age.Value}");
-}
+// if(age != null)
+// {
+//     Console.WriteLine($"Age is: {age}");
+// }
+
+// if(age.HasValue)
+// {
+//     Console.WriteLine($"Age is: {age.Value}");
+// }
