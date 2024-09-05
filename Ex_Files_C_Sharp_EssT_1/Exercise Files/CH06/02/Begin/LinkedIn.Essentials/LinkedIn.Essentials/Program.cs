@@ -15,9 +15,24 @@ definiteInt = age ?? 17;
 
 Console.WriteLine($"Age is: {definiteInt}");
 Console.WriteLine(PadAndTrim(input, 15, '0'));
+var shiftDay = GetShiftDays((DayOfWeek)17);
+Console.WriteLine(shiftDay);
+
+static ShiftDays GetShiftDays(DayOfWeek day) => day switch
+{
+    DayOfWeek.Monday => ShiftDays.Monday,
+    DayOfWeek.Tuesday => ShiftDays.Tuesday,
+    DayOfWeek.Wednesday => ShiftDays.Wednesday,
+    DayOfWeek.Thursday => ShiftDays.Thursday,
+    DayOfWeek.Friday => ShiftDays.Friday,
+    DayOfWeek.Saturday => ShiftDays.Saturday,
+    DayOfWeek.Sunday => ShiftDays.Sunday,
+    _ => throw new ArgumentException("Invalid day of week")
+
+};
 
 
-static string PadAndTrim([AllowNull]string input, int length, char padChar)
+static string PadAndTrim([AllowNull] string input, int length, char padChar)
 {
     if (input == null)
     {
@@ -25,7 +40,7 @@ static string PadAndTrim([AllowNull]string input, int length, char padChar)
     }
     else if (input != null && input.Length <= length)
     {
-        switch(padChar)
+        switch (padChar)
         {
             case ' ':
             case '|':
