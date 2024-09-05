@@ -4,8 +4,17 @@ using LinkedIn.Essentials;
 var x = 10.0;
 var y = "some string";
 
-dynamic d = new ShiftWorker() { FirstName = "Dynamic", 
-    LastName = "Worker" };
+ShiftWorker d = new ShiftWorker()
+{
+    FirstName = "Dynamic",
+    LastName = "Worker"
+};
+d.DaysAvailable = ShiftDays.Wednesday;
 
 //string kid1 = d.Kids[1];
-Console.WriteLine(d.FirstName);
+Console.WriteLine(d.DaysAvailable);
+
+var day = DayOfWeek.Monday;
+Console.WriteLine(day);
+
+var shiftDay = ShiftDays.Tuesday;

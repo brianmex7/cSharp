@@ -21,7 +21,7 @@ public abstract class Employee : IPerson
     public abstract int EmployeeId { get; }
 
     //derived must implement
-    public abstract bool ProcessPayroll();  
+    public abstract bool ProcessPayroll();
 
     //derived can implement
     public virtual void Terminate(DateTime terminationEffectiveDate)
@@ -34,7 +34,7 @@ public abstract class Employee : IPerson
     protected bool IsActive()
     {
         string server = Constants.CONFIG_SERVER_NAME;
-        
+
         Console.WriteLine("Employee Active");
         DateOnly current = DateOnly.FromDateTime(DateTime.Now);
         return current > StartDate && DateTime.Now < EndDate;
@@ -43,6 +43,7 @@ public abstract class Employee : IPerson
 
 public class ShiftWorker : Employee
 {
+    public ShiftDays DaysAvailable { get; set; }
     public TimeOnly ShiftStartTime { get; set; }
     public override int EmployeeId { get => 1; }
 
@@ -60,7 +61,7 @@ public class ShiftWorker : Employee
 public class Manager : Employee, IPerson
 {
     public int NumberOfDirectReports { get; set; }
-    public override int EmployeeId { get=> new System.Random().Next(1,100); }
+    public override int EmployeeId { get => new System.Random().Next(1, 100); }
 
     public override bool ProcessPayroll()
     {
@@ -76,4 +77,14 @@ public class Manager : Employee, IPerson
         //optional - call base implementation
         base.Terminate(terminationEffectiveDate);
     }
+}
+public enum ShiftDays
+{
+    Sunday = 1,
+    Monday = 2,
+    Tuesday = 4,
+    Wednesday = 8,
+    Thursday = 16,
+    Friday = 32,
+    Saturday = 64
 }

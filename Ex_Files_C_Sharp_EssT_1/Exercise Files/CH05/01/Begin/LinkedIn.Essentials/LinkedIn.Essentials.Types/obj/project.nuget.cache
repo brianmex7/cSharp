@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ys42cfvRgXk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\14352\\cSharp\\Ex_Files_C_Sharp_EssT_1\\Exercise Files\\CH05\\01\\Begin\\LinkedIn.Essentials\\LinkedIn.Essentials.Types\\LinkedIn.Essentials.Types.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\14352\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.32\\microsoft.netcore.app.ref.6.0.32.nupkg.sha512",
+    "C:\\Users\\14352\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.32\\microsoft.windowsdesktop.app.ref.6.0.32.nupkg.sha512",
+    "C:\\Users\\14352\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.32\\microsoft.aspnetcore.app.ref.6.0.32.nupkg.sha512"
+  ],
+  "logs": []
+}
