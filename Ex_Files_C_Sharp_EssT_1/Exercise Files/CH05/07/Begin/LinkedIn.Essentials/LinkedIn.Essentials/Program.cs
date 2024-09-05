@@ -14,6 +14,13 @@ definiteInt = age ?? 17;
 
 Console.WriteLine($"Age is: {definiteInt}");
 
+static string PadAndTrim(string input, int length, char padChar)
+{
+    return input?.Trim()?.PadLeft(length, padChar);
+}
+
+Console.WriteLine(PadAndTrim(input, 15, '0'));
+
 
 //if (age != null)
 //{
