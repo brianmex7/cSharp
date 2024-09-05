@@ -21,7 +21,7 @@ public abstract class Employee : IPerson
     public abstract int EmployeeId { get; }
 
     //derived must implement
-    public abstract bool ProcessPayroll();  
+    public abstract bool ProcessPayroll();
 
     //derived can implement
     public virtual void Terminate(DateTime terminationEffectiveDate)
@@ -34,13 +34,14 @@ public abstract class Employee : IPerson
     protected bool IsActive()
     {
         string server = Constants.CONFIG_SERVER_NAME;
-        
+
         Console.WriteLine("Employee Active");
         DateOnly current = DateOnly.FromDateTime(DateTime.Now);
         return current > StartDate && DateTime.Now < EndDate;
     }
 }
-public enum ShiftDays
+[Flags]
+public enum ShiftDays : short
 {
     Sunday = 1,
     Monday = 2,
@@ -71,7 +72,7 @@ public class ShiftWorker : Employee
 public class Manager : Employee, IPerson
 {
     public int NumberOfDirectReports { get; set; }
-    public override int EmployeeId { get=> new System.Random().Next(1,100); }
+    public override int EmployeeId { get => new System.Random().Next(1, 100); }
 
     public override bool ProcessPayroll()
     {

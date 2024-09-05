@@ -1,9 +1,12 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using LinkedIn.Essentials;
 
-ShiftWorker d = new ShiftWorker() { FirstName = "Dynamic", 
-    LastName = "Worker" };
-d.DaysAvailable = ShiftDays.Wednesday;
+ShiftWorker d = new ShiftWorker()
+{
+    FirstName = "Dynamic",
+    LastName = "Worker"
+};
+d.DaysAvailable = ShiftDays.Wednesday | ShiftDays.Thursday;
 
 
 Console.WriteLine(d.DaysAvailable);
