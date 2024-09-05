@@ -28,10 +28,10 @@ static ShiftDays GetShiftDays(DayOfWeek day) => day switch
     DayOfWeek.Friday => ShiftDays.Friday,
     DayOfWeek.Saturday => ShiftDays.Saturday,
     DayOfWeek.Sunday => ShiftDays.Sunday,
-    _ => throw new ArgumentException("Invalid day of week suppliied")
+    _ => throw new ArgumentException("Invalid day of week supplied")
 
 };
-static string PadAndTrim([AllowNull]string input, int length, char padChar)
+static string PadAndTrim([AllowNull] string input, int length, char padChar)
 {
     if (input == null)
     {
@@ -39,7 +39,7 @@ static string PadAndTrim([AllowNull]string input, int length, char padChar)
     }
     else if (input != null && input.Length <= length)
     {
-        switch(padChar)
+        switch (padChar)
         {
             case ' ':
             case '|':
@@ -57,4 +57,18 @@ static string PadAndTrim([AllowNull]string input, int length, char padChar)
     {
         throw new ArgumentException("Input is longer than requested length");
     }
+}
+
+IPerson sw = new ShiftWorker { FirstName = "Shift", LastName = "Worker" };
+IPerson mgr = new Manager { FirstName = "Manager", LastName = "Worker" };
+Console.WriteLine(GetPersonDetails(sw));
+
+static string GetPersonDetails(IPerson p)
+{
+    //ShiftWorker? swv = p as ShiftWorker;
+    if (p is ShiftWorker swv)
+    {
+        return $"{swv.FirstName} {swv.LastName} ";
+    }
+    return String.Empty;
 }
