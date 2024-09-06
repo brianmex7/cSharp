@@ -31,7 +31,7 @@ static ShiftDays GetShiftDays(DayOfWeek day) => day switch
     _ => throw new ArgumentException("Invalid day of week suppliied")
 
 };
-static string PadAndTrim([AllowNull]string input, int length, char padChar)
+static string PadAndTrim([AllowNull] string input, int length, char padChar)
 {
     if (input == null)
     {
@@ -39,24 +39,22 @@ static string PadAndTrim([AllowNull]string input, int length, char padChar)
     }
     else if (input != null && input.Length <= length)
     {
-        switch(padChar)
+        switch (padChar)
         {
-            case ' ':
-            case '|':
+            case >= 'a' and <= 'z' or (case >= 'A' and <= 'Z'):            
                 return input.Trim().PadLeft(length, padChar);
-            case '0':
-            case '9':
-                return input.Trim().PadRight(length, padChar);
-            default:
-                Console.WriteLine("No match found for pad character");
-                break;
-        }
-        return input.Trim().PadLeft(length, padChar);
+            case >= '0' and <= '9':
+    return input.Trim().PadRight(length, padChar);
+default:
+    Console.WriteLine("No match found for pad character");
+    break;
+}
+return input.Trim().PadLeft(length, padChar);
     }
     else
-    {
-        throw new ArgumentException("Input is longer than requested length");
-    }
+{
+    throw new ArgumentException("Input is longer than requested length");
+}
 }
 
 IPerson sw = new ShiftWorker { FirstName = "Shift", LastName = "Worker", StartDate = new DateOnly(2020, 7, 15) };
