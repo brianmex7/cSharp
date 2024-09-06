@@ -37,11 +37,11 @@ Console.WriteLine($"Shift {(IsWeekendNightShift(shiftDate) ? "is" : "is not")} a
 
 static bool IsWeekendNightShift(DateTime shiftDate) => shiftDate switch
 {
-    { Hour: >=15, DayOfWeek: DayOfWeek.Friday or DayOfWeek.Saturday} => true,
-    _ => false 
+    { Hour: >= 15, DayOfWeek: DayOfWeek.Friday or DayOfWeek.Saturday } => true,
+    _ => false
 };
 
-static string PadAndTrim([AllowNull]string input, int length, char padChar)
+static string PadAndTrim([AllowNull] string input, int length, char padChar)
 {
     if (input == null)
     {
@@ -49,7 +49,7 @@ static string PadAndTrim([AllowNull]string input, int length, char padChar)
     }
     else if (input != null && input.Length <= length)
     {
-        switch(padChar)
+        switch (padChar)
         {
             case (>= 'a' and <= 'z') or (>= 'A' and <= 'Z'):
                 return input.Trim().PadLeft(length, padChar);
@@ -77,7 +77,9 @@ static string GetPersonDetails(IPerson p)
 {
     var result = p switch
     {
-        ShiftWorker swv => $"{swv.FirstName} {swv.LastName}: {swv.StartDate}",
+        ShiftWorker swv when swv.StartDate.Year > 2020 => $"{swv.FirstName} {swv.LastName}: {swv.StartDate}",
+        ShiftWorker swv when swv.StartDate.Year <= 2020 => $"Older {swv.FirstName} {swv.LastName}: {swv.StartDate}",
+
         Manager mgr => $"{mgr.FirstName} {mgr.LastName} Reports: {mgr.NumberOfDirectReports}",
         _ => string.Empty
     };
