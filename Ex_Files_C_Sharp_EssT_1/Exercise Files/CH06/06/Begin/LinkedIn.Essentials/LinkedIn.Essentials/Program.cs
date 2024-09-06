@@ -31,7 +31,19 @@ static ShiftDays GetShiftDays(DayOfWeek day) => day switch
     _ => throw new ArgumentException("Invalid day of week suppliied")
 
 };
-static string PadAndTrim([AllowNull]string input, int length, char padChar)
+
+var shiftDate = new DateTime(2024, 9, 5, 16, 0, 0);
+Console.WriteLine($"Shift {(isWeekendNightShift(shiftDate) ? "is" : "is not")} a weekend night shift");
+
+static bool isWeekendNightShift(DateTime shiftDate) =>
+    shiftDate switch
+    {
+        { Hour: >= 15, DayOfWeek: DayOfWeek.Friday or DayOfWeek.Saturday } => true,
+        _ => false
+    };
+
+
+static string PadAndTrim([AllowNull] string input, int length, char padChar)
 {
     if (input == null)
     {
@@ -39,7 +51,7 @@ static string PadAndTrim([AllowNull]string input, int length, char padChar)
     }
     else if (input != null && input.Length <= length)
     {
-        switch(padChar)
+        switch (padChar)
         {
             case (>= 'a' and <= 'z') or (>= 'A' and <= 'Z'):
                 return input.Trim().PadLeft(length, padChar);
