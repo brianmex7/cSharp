@@ -31,7 +31,7 @@ static ShiftDays GetShiftDays(DayOfWeek day) => day switch
     _ => throw new ArgumentException("Invalid day of week suppliied")
 
 };
-static string PadAndTrim([AllowNull]string input, int length, char padChar)
+static string PadAndTrim([AllowNull] string input, int length, char padChar)
 {
     if (input == null)
     {
@@ -39,7 +39,7 @@ static string PadAndTrim([AllowNull]string input, int length, char padChar)
     }
     else if (input != null && input.Length <= length)
     {
-        switch(padChar)
+        switch (padChar)
         {
             case ' ':
             case '|':
@@ -68,13 +68,22 @@ Console.WriteLine(GetPersonDetails(mgr));
 static string GetPersonDetails(IPerson p)
 {
     //ShiftWorker? swv = p as ShiftWorker;
-    if (p is ShiftWorker swv)
+
+    var result = p switch
     {
-        return $"{swv.FirstName} {swv.LastName}: {swv.StartDate}";
-    }
-    else if (p is Manager mgr)
-    {
-        return $"{mgr.FirstName} {mgr.LastName} Reports: {mgr.NumberOfDirectReports}";
-    }
-    return String.Empty;
+        ShiftWorker swv => $"{swv.FirstName} {swv.LastName}: {swv.StartDate}",
+        Manager mgr => $"{mgr.FirstName} {mgr.LastName} Reports:{mgr.NumberOfDirectReports}",
+        _ => string.Empty
+
+    };
+    return result;
+    // if (p is ShiftWorker swv)
+    // {
+    //     return $"{swv.FirstName} {swv.LastName}: {swv.StartDate}";
+    // }
+    // else if (p is Manager mgr)
+    // {
+    //     return $"{mgr.FirstName} {mgr.LastName} Reports: {mgr.NumberOfDirectReports}";
+    // }
+    // return String.Empty;
 }

@@ -1,0 +1,12 @@
+C:\Users\14352\cSharp\Ex_Files_C_Sharp_EssT_1\Exercise Files\CH06\04\Begin\LinkedIn.Essentials\LinkedIn.Essentials.Types\bin\Debug\net6.0\LinkedIn.Essentials.Types.deps.json
+C:\Users\14352\cSharp\Ex_Files_C_Sharp_EssT_1\Exercise Files\CH06\04\Begin\LinkedIn.Essentials\LinkedIn.Essentials.Types\bin\Debug\net6.0\LinkedIn.Essentials.Types.dll
+C:\Users\14352\cSharp\Ex_Files_C_Sharp_EssT_1\Exercise Files\CH06\04\Begin\LinkedIn.Essentials\LinkedIn.Essentials.Types\bin\Debug\net6.0\LinkedIn.Essentials.Types.pdb
+C:\Users\14352\cSharp\Ex_Files_C_Sharp_EssT_1\Exercise Files\CH06\04\Begin\LinkedIn.Essentials\LinkedIn.Essentials.Types\obj\Debug\net6.0\LinkedIn.Essentials.Types.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\14352\cSharp\Ex_Files_C_Sharp_EssT_1\Exercise Files\CH06\04\Begin\LinkedIn.Essentials\LinkedIn.Essentials.Types\obj\Debug\net6.0\LinkedIn.Essentials.Types.AssemblyInfoInputs.cache
+C:\Users\14352\cSharp\Ex_Files_C_Sharp_EssT_1\Exercise Files\CH06\04\Begin\LinkedIn.Essentials\LinkedIn.Essentials.Types\obj\Debug\net6.0\LinkedIn.Essentials.Types.AssemblyInfo.cs
+C:\Users\14352\cSharp\Ex_Files_C_Sharp_EssT_1\Exercise Files\CH06\04\Begin\LinkedIn.Essentials\LinkedIn.Essentials.Types\obj\Debug\net6.0\LinkedIn.Essentials.Types.csproj.CoreCompileInputs.cache
+C:\Users\14352\cSharp\Ex_Files_C_Sharp_EssT_1\Exercise Files\CH06\04\Begin\LinkedIn.Essentials\LinkedIn.Essentials.Types\obj\Debug\net6.0\LinkedIn.Essentials.Types.sourcelink.json
+C:\Users\14352\cSharp\Ex_Files_C_Sharp_EssT_1\Exercise Files\CH06\04\Begin\LinkedIn.Essentials\LinkedIn.Essentials.Types\obj\Debug\net6.0\LinkedIn.Essentials.Types.dll
+C:\Users\14352\cSharp\Ex_Files_C_Sharp_EssT_1\Exercise Files\CH06\04\Begin\LinkedIn.Essentials\LinkedIn.Essentials.Types\obj\Debug\net6.0\refint\LinkedIn.Essentials.Types.dll
+C:\Users\14352\cSharp\Ex_Files_C_Sharp_EssT_1\Exercise Files\CH06\04\Begin\LinkedIn.Essentials\LinkedIn.Essentials.Types\obj\Debug\net6.0\LinkedIn.Essentials.Types.pdb
+C:\Users\14352\cSharp\Ex_Files_C_Sharp_EssT_1\Exercise Files\CH06\04\Begin\LinkedIn.Essentials\LinkedIn.Essentials.Types\obj\Debug\net6.0\ref\LinkedIn.Essentials.Types.dll
