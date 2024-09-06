@@ -1,0 +1,12 @@
+C:\Users\14352\cSharp\Ex_Files_C_Sharp_EssT_2\Ex_Files_C_Sharp_EssT_2\Exercise Files\Ch01\01\Begin\LinkedIn.Essentials2\Essentials2.Library\bin\Debug\net6.0\Essentials2.Library.deps.json
+C:\Users\14352\cSharp\Ex_Files_C_Sharp_EssT_2\Ex_Files_C_Sharp_EssT_2\Exercise Files\Ch01\01\Begin\LinkedIn.Essentials2\Essentials2.Library\bin\Debug\net6.0\Essentials2.Library.dll
+C:\Users\14352\cSharp\Ex_Files_C_Sharp_EssT_2\Ex_Files_C_Sharp_EssT_2\Exercise Files\Ch01\01\Begin\LinkedIn.Essentials2\Essentials2.Library\bin\Debug\net6.0\Essentials2.Library.pdb
+C:\Users\14352\cSharp\Ex_Files_C_Sharp_EssT_2\Ex_Files_C_Sharp_EssT_2\Exercise Files\Ch01\01\Begin\LinkedIn.Essentials2\Essentials2.Library\obj\Debug\net6.0\Essentials2.Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\14352\cSharp\Ex_Files_C_Sharp_EssT_2\Ex_Files_C_Sharp_EssT_2\Exercise Files\Ch01\01\Begin\LinkedIn.Essentials2\Essentials2.Library\obj\Debug\net6.0\Essentials2.Library.AssemblyInfoInputs.cache
+C:\Users\14352\cSharp\Ex_Files_C_Sharp_EssT_2\Ex_Files_C_Sharp_EssT_2\Exercise Files\Ch01\01\Begin\LinkedIn.Essentials2\Essentials2.Library\obj\Debug\net6.0\Essentials2.Library.AssemblyInfo.cs
+C:\Users\14352\cSharp\Ex_Files_C_Sharp_EssT_2\Ex_Files_C_Sharp_EssT_2\Exercise Files\Ch01\01\Begin\LinkedIn.Essentials2\Essentials2.Library\obj\Debug\net6.0\Essentials2.Library.csproj.CoreCompileInputs.cache
+C:\Users\14352\cSharp\Ex_Files_C_Sharp_EssT_2\Ex_Files_C_Sharp_EssT_2\Exercise Files\Ch01\01\Begin\LinkedIn.Essentials2\Essentials2.Library\obj\Debug\net6.0\Essentials2.Library.sourcelink.json
+C:\Users\14352\cSharp\Ex_Files_C_Sharp_EssT_2\Ex_Files_C_Sharp_EssT_2\Exercise Files\Ch01\01\Begin\LinkedIn.Essentials2\Essentials2.Library\obj\Debug\net6.0\Essentials2.Library.dll
+C:\Users\14352\cSharp\Ex_Files_C_Sharp_EssT_2\Ex_Files_C_Sharp_EssT_2\Exercise Files\Ch01\01\Begin\LinkedIn.Essentials2\Essentials2.Library\obj\Debug\net6.0\refint\Essentials2.Library.dll
+C:\Users\14352\cSharp\Ex_Files_C_Sharp_EssT_2\Ex_Files_C_Sharp_EssT_2\Exercise Files\Ch01\01\Begin\LinkedIn.Essentials2\Essentials2.Library\obj\Debug\net6.0\Essentials2.Library.pdb
+C:\Users\14352\cSharp\Ex_Files_C_Sharp_EssT_2\Ex_Files_C_Sharp_EssT_2\Exercise Files\Ch01\01\Begin\LinkedIn.Essentials2\Essentials2.Library\obj\Debug\net6.0\ref\Essentials2.Library.dll
