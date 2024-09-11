@@ -1,7 +1,16 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Essentials2.Library;
 
+string jsonPerson = @"{""Id"": 0,
+""FirstName"":""Matt"",
+""LastName"":""Milner"",
+""Age"":50}";
+
+var pj = System.Text.Json.JsonSerializer.Deserialize<Person>(jsonPerson);
+Console.WriteLine($"JSON Person, {pj?.FirstName} is {pj?.Age}");
+
 var p1 = new Person
+
 {
     FirstName = "matt",
     LastName = "milner",
@@ -17,7 +26,7 @@ var p2 = new Person
 
 Swap<Person>(ref p1, ref p2);
 
-Console.WriteLine($"Person 1: {p1.FirstName}"); 
+Console.WriteLine($"Person 1: {p1.FirstName}");
 
 
 int x = 5, y = 7;
