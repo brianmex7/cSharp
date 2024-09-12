@@ -9,6 +9,22 @@ var c = new Customer
 
 };
 
+var c2 = new Customer
+{
+    Id = 3,
+    FirstName = "Brian",
+    LastName = "Bustos",
+    CreateDate = new DateOnly(2022, 1, 17)
+
+};
+
+var sorter = new Sorter<Customer>();
+var customers = new Customer[] { c, c2 };
+sorter.Sort(customers);
+foreach (var customer in customers)
+{
+    Console.WriteLine($"{customer.Id}: {customer.LastName} ");
+}
 var mapper = new CustomerToPersonMapper();
 var p = c.Map<Person>(mapper);// mapper.Map(c);
 

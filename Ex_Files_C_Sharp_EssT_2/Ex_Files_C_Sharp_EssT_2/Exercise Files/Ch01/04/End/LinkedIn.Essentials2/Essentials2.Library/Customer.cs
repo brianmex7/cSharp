@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Essentials2.Library
 {
-    public class Customer :IComparable<Customer>
+    public class Customer : IComparable<Customer>
     {
         public int Id { get; set; }
         public DateOnly CreateDate { get; set; }
