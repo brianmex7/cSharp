@@ -4,7 +4,6 @@
     {
         public static void Queue()
         {
-            System.Collections.Specialized.NameValueCollection
             var q = new System.Collections.Queue();
             q.Enqueue("firstItem");
             q.Enqueue("secondItem");

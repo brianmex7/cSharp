@@ -1,5 +1,9 @@
 ﻿using Essentials2.Library;
 
+CollectionSamples.Queue();
+CollectionSamples.Stack();
+return;
+
 string[] names = new string[2];
 names[0] = "matt";
 names[1] = "milner";
