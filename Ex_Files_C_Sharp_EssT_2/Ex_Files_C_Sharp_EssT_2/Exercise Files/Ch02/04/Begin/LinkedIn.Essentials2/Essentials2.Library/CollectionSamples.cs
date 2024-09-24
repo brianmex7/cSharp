@@ -164,10 +164,29 @@ namespace Essentials2.Library
             var items = new NameValueCollection();
             items.Add("m", "matt");
             items.Add("l", "leticia");
+            items.Add("l", "larry");
 
             foreach (var item in items.AllKeys)
             {
                 Console.WriteLine(items[item]);
+            }
+        }
+
+        public static void Concurrent()
+        {
+            var bag = new System.Collections.Concurrent.ConcurrentBag<Person>();
+
+            bag.Add(new Person
+            {
+                FirstName = "Brian",
+                LastName = "Bustos",
+                Age = 28,
+                Id = 2
+            });
+
+            foreach (var item in bag)
+            {
+                Console.WriteLine(item.FirstName);
             }
         }
     }

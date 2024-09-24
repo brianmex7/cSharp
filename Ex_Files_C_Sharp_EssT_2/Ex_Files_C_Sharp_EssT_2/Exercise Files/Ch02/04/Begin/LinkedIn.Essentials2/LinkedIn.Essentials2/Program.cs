@@ -7,3 +7,5 @@
 //CollectionSamples.Dictionary();
 
 CollectionSamples.NameValue();
+
+CollectionSamples.Concurrent();

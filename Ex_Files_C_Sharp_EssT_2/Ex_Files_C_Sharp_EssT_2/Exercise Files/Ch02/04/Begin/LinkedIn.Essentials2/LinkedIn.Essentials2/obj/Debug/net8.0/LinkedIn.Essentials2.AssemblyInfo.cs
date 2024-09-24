@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LinkedIn.Essentials2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0068d2ca05f9cdb1ac7a85ab9bb99914450baa60")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92c1c55d7562b58384a914c5d80be5050ba9ce35")]
 [assembly: System.Reflection.AssemblyProductAttribute("LinkedIn.Essentials2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LinkedIn.Essentials2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
