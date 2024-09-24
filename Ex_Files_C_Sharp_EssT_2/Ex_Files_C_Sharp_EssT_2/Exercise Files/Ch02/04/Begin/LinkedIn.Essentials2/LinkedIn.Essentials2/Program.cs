@@ -4,6 +4,6 @@
 
 //CollectionSamples.Iterating();
 
-CollectionSamples.Dictionary();
+//CollectionSamples.Dictionary();
 
-//CollectionSamples.NameValue();
+CollectionSamples.NameValue();

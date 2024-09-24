@@ -49,13 +49,16 @@ namespace Essentials2.Library
             for (int i = 1; i < 11; i++)
             {
                 customers.Add(
-                    new Customer { Id = i, 
-                    FirstName = i.ToString(), 
-                    LastName = "Customer",
-                    CreateDate = new DateOnly(2021,10,i)});
+                    new Customer
+                    {
+                        Id = i,
+                        FirstName = i.ToString(),
+                        LastName = "Customer",
+                        CreateDate = new DateOnly(2021, 10, i)
+                    });
             }
         }
-       
+
         public static void Indexing()
         {
             //get an item at a specific index
@@ -70,8 +73,8 @@ namespace Essentials2.Library
 
             //use a predicate to find an item in the collection
             var customerSeven = customers.Find(CustomerIsMatch);
-            
-            if(customerSeven != null)
+
+            if (customerSeven != null)
             {
                 Console.WriteLine($"Found customer {customerSeven.Id}");
             }
@@ -129,6 +132,14 @@ namespace Essentials2.Library
                 LastName = "lawnmower",
                 Age = 37,
                 Id = 2
+            });
+
+            people.Add("l", new Person
+            {
+                FirstName = "leticia",
+                LastName = "lawnmower",
+                Age = 37,
+                Id = 3
             });
 
             //check for key
